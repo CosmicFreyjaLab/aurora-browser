@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A1234561234567800000001 /* AuroraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000002 /* AuroraApp.swift */; };
+		8A1234561234567800000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000004 /* ContentView.swift */; };
+		8A1234561234567800000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000006 /* Assets.xcassets */; };
+		8A1234561234567800000007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000008 /* Preview Assets.xcassets */; };
+		8A1234561234567800000009 /* AuroraAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000010 /* AuroraAppState.swift */; };
+		8A1234561234567800000011 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000012 /* Project.swift */; };
+		8A1234561234567800000013 /* NordicElectricAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000014 /* NordicElectricAI.swift */; };
+		8A1234561234567800000015 /* WebKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000016 /* WebKitExtensions.swift */; };
+		8A1234561234567800000017 /* BrowserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000018 /* BrowserModels.swift */; };
+		8A1234561234567800000019 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000020 /* WebViewContainer.swift */; };
+		8A1234561234567800000021 /* AICopilotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000022 /* AICopilotView.swift */; };
+		8A1234561234567800000023 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000024 /* StatusBarView.swift */; };
+		8A1234561234567800000025 /* TerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000026 /* TerminalView.swift */; };
+		8A1234561234567800000027 /* BackendIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000028 /* BackendIntegration.swift */; };
+		8A1234561234567800000029 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000030 /* AIService.swift */; };
+		8A1234561234567800000031 /* TerminalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000032 /* TerminalService.swift */; };
+		8A1234561234567800000033 /* BackendConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1234561234567800000034 /* BackendConnection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A1234561234567800000035 /* Aurora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aurora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1234561234567800000002 /* AuroraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraApp.swift; sourceTree = "<group>"; };
+		8A1234561234567800000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A1234561234567800000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A1234561234567800000008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A1234561234567800000010 /* AuroraAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraAppState.swift; sourceTree = "<group>"; };
+		8A1234561234567800000012 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		8A1234561234567800000014 /* NordicElectricAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NordicElectricAI.swift; sourceTree = "<group>"; };
+		8A1234561234567800000016 /* WebKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitExtensions.swift; sourceTree = "<group>"; };
+		8A1234561234567800000018 /* BrowserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserModels.swift; sourceTree = "<group>"; };
+		8A1234561234567800000020 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		8A1234561234567800000022 /* AICopilotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICopilotView.swift; sourceTree = "<group>"; };
+		8A1234561234567800000024 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
+		8A1234561234567800000026 /* TerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalView.swift; sourceTree = "<group>"; };
+		8A1234561234567800000028 /* BackendIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendIntegration.swift; sourceTree = "<group>"; };
+		8A1234561234567800000030 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		8A1234561234567800000032 /* TerminalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalService.swift; sourceTree = "<group>"; };
+		8A1234561234567800000034 /* BackendConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendConnection.swift; sourceTree = "<group>"; };
+		8A1234561234567800000036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1234561234567800000037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A1234561234567800000038 = {
+			isa = PBXGroup;
+			children = (
+				8A1234561234567800000039 /* Aurora */,
+				8A1234561234567800000040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1234561234567800000040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1234561234567800000035 /* Aurora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A1234561234567800000039 /* Aurora */ = {
+			isa = PBXGroup;
+			children = (
+				8A1234561234567800000002 /* AuroraApp.swift */,
+				8A1234561234567800000004 /* ContentView.swift */,
+				8A1234561234567800000010 /* AuroraAppState.swift */,
+				8A1234561234567800000012 /* Project.swift */,
+				8A1234561234567800000036 /* Info.plist */,
+				8A1234561234567800000041 /* Resources */,
+				8A1234561234567800000042 /* Models */,
+				8A1234561234567800000043 /* Views */,
+				8A1234561234567800000044 /* Services */,
+				8A1234561234567800000045 /* Utils */,
+				8A1234561234567800000046 /* Preview Content */,
+			);
+			path = Aurora;
+			sourceTree = "<group>";
+		};
+		8A1234561234567800000041 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A1234561234567800000006 /* Assets.xcassets */,
+				8A1234561234567800000014 /* NordicElectricAI.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A1234561234567800000042 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A1234561234567800000018 /* BrowserModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A1234561234567800000043 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A1234561234567800000020 /* WebViewContainer.swift */,
+				8A1234561234567800000022 /* AICopilotView.swift */,
+				8A1234561234567800000024 /* StatusBarView.swift */,
+				8A1234561234567800000026 /* TerminalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A1234561234567800000044 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8A1234561234567800000028 /* BackendIntegration.swift */,
+				8A1234561234567800000030 /* AIService.swift */,
+				8A1234561234567800000032 /* TerminalService.swift */,
+				8A1234561234567800000034 /* BackendConnection.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8A1234561234567800000045 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A1234561234567800000016 /* WebKitExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8A1234561234567800000046 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A1234561234567800000008 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1234561234567800000047 /* Aurora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1234561234567800000048 /* Build configuration list for PBXNativeTarget "Aurora" */;
+			buildPhases = (
+				8A1234561234567800000049 /* Sources */,
+				8A1234561234567800000037 /* Frameworks */,
+				8A1234561234567800000050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aurora;
+			productName = Aurora;
+			productReference = 8A1234561234567800000035 /* Aurora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1234561234567800000051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8A1234561234567800000047 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 8A1234561234567800000052 /* Build configuration list for PBXProject "Aurora" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A1234561234567800000038;
+			productRefGroup = 8A1234561234567800000040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1234561234567800000047 /* Aurora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1234561234567800000050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1234561234567800000007 /* Preview Assets.xcassets in Resources */,
+				8A1234561234567800000005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1234561234567800000049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1234561234567800000003 /* ContentView.swift in Sources */,
+				8A1234561234567800000001 /* AuroraApp.swift in Sources */,
+				8A1234561234567800000009 /* AuroraAppState.swift in Sources */,
+				8A1234561234567800000011 /* Project.swift in Sources */,
+				8A1234561234567800000013 /* NordicElectricAI.swift in Sources */,
+				8A1234561234567800000015 /* WebKitExtensions.swift in Sources */,
+				8A1234561234567800000017 /* BrowserModels.swift in Sources */,
+				8A1234561234567800000019 /* WebViewContainer.swift in Sources */,
+				8A1234561234567800000021 /* AICopilotView.swift in Sources */,
+				8A1234561234567800000023 /* StatusBarView.swift in Sources */,
+				8A1234561234567800000025 /* TerminalView.swift in Sources */,
+				8A1234561234567800000027 /* BackendIntegration.swift in Sources */,
+				8A1234561234567800000029 /* AIService.swift in Sources */,
+				8A1234561234567800000031 /* TerminalService.swift in Sources */,
+				8A1234561234567800000033 /* BackendConnection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A1234561234567800000053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A1234561234567800000054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8A1234561234567800000055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aurora/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aurora/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Aurora Browser";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.aurora.browser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A1234561234567800000056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aurora/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aurora/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Aurora Browser";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.aurora.browser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1234561234567800000052 /* Build configuration list for PBXProject "Aurora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1234561234567800000053 /* Debug */,
+				8A1234561234567800000054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1234561234567800000048 /* Build configuration list for PBXNativeTarget "Aurora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1234561234567800000055 /* Debug */,
+				8A1234561234567800000056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1234561234567800000051 /* Project object */;
+}
