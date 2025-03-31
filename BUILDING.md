@@ -1,3 +1,4 @@
+
 # Building Aurora Browser
 
 This document provides instructions for building Aurora Browser from source.
